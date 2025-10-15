@@ -1,1 +1,19 @@
+* {
+  margin: 0;
+  text-align: center;
+}
 
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  margin-top: 827px;
+}
