@@ -1,40 +1,30 @@
 import "./App.css";
-
-function Header() {
-  return (
-    <>
-      <h2 className="header">Header section edited</h2>
-    </>
-  );
-}
-
-function Welcome() {
-  return (
-    <>
-      <div className="welcome">
-        <h2>Body section</h2>
-        <h2>Welcome To Uki</h2>
-      </div>
-    </>
-  );
-}
-
-function Footer() {
-  return (
-    <>
-      <h2 className="footer">Footer section</h2>
-    </>
-  );
-}
+import StudentProfile from "./components/studentProfile";
 
 function App() {
   return (
     <>
-      <div>
-        <Header />
-        <Welcome />
-        <Footer />
-      </div>
+      <StudentProfile
+        fname="Kiruthuya"
+        lname="Tharmakulasingam"
+        email="kiruthu@gmail.com"
+        age={20}
+        isPresent={true}
+      />
+      <StudentProfile
+        fname="Abisha"
+        lname="Mohan"
+        email="abimohan@gmail.com"
+        age={20}
+        isPresent={true}
+      />
+      <StudentProfile
+        fname="Thushi"
+        lname="Rajakulasingam"
+        email="thushi@gmail.com"
+        age={25}
+        isPresent={false}
+      />
     </>
   );
 }

@@ -1,19 +1,7 @@
-* {
-  margin: 0;
-  text-align: center;
-}
-
-.header {
-  width: 100%;
-  height: 40px;
-  background-color: blue;
-  color: white;
-}
-
-.footer {
-  width: 100%;
-  height: 40px;
-  background-color: blue;
-  color: white;
-  margin-top: 827px;
+.profile-container {
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px 25px;
+  background-color: rgb(252, 193, 223);
+  border-radius: 10px;
 }
