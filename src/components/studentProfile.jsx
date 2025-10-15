@@ -11,7 +11,7 @@ function StudentProfile(props) {
         </h2>
         <h2>Email : {props.email}</h2>
         <h3>Age: {props.age}</h3>
-        <h4>Status: {props.isPresent ? "Present" : "Absent"}</h4>
+        <h3>status: {props.isPresent ? "Present" : "Absent"}</h3>
       </div>
     </>
   );
